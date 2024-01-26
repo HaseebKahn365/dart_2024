@@ -18,4 +18,5 @@ class car {
 
 void collide(int cars) {
   int collided = 3; //local
+  print(collided);
 }
