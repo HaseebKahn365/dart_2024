@@ -8,6 +8,7 @@ inference of the type is done through var keyword.
 
 The dart analyser won't allow the change of type of var but with dynamic we can do that
 
+sound null safety.
 
  */
 
@@ -21,4 +22,16 @@ void main() {
   print(name.runtimeType);
 
   print(name);
+
+  var a;
+  print(a.runtimeType);
 }
+
+/*
+
+Dart uses compilor.
+JIT - Just in time compilor //only compiles the newly affected portioon of the code and runs it
+AOT - Ahead of time compilor
+dartdevc - dart development compilor
+dart2js - dart to javascript compilor
+ */
