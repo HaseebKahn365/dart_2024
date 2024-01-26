@@ -5,4 +5,19 @@ void main(List<String> args) {
 
   print(a.runtimeType);
   print(b.runtimeType);
+
+  a.forEach((key, value) {
+    print('$key $value');
+  });
+
+  print(a[1]);
+
+  print(a.containsKey(1));
+  print(a.containsValue('Haseeb'));
+
+  print(a.entries);
+  var k = a.entries.map((e) => e.value);
+  print(k);
+
+  print(a.values);
 }
