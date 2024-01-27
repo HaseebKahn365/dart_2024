@@ -1,23 +1,13 @@
-void main(List<String> args) {
-  Function a = filterEvens; //here a is called closure
-  printer(a);
-}
-
-void printer(Function a) {
-  // List<int> newList = a([1, 34, 5, 1, 34, 65, 23, 66]);
-  List<int> newList = a([]);
-
-  newList = newList.map((e) => e * 10).toList();
-
-  print(newList);
-}
-
-List<int> filterEvens(List<int> all) {
-  List<int> temp = [];
-  for (var item in all) {
-    if ((item) % 2 == 0) {
-      temp.add(item);
+void main() {
+  printSpecial([1, 2, 3, 4, 5, 6], (List<int> a) {
+    for (var item in a) {
+      if (item.isEven) {
+        print(item);
+      }
     }
-  }
-  return temp;
+  });
+}
+
+void printSpecial(List<int> a, Function b) {
+  b(a);
 }
