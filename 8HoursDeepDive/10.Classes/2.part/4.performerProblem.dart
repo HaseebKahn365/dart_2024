@@ -28,3 +28,8 @@ void main() {
   var musician = Musician();
   musician.showTime(); //THIS SHOULD SAY GUITARIST BECAUSE THIS IS THE LAST MIXIN. YES. IT DOES
 }
+
+
+//in summary extends = INHERITANCE
+//implements = ABSTRACTION
+//with = MIXINS
