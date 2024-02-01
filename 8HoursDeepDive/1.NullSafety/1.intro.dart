@@ -13,10 +13,10 @@ sound null safety.
  */
 
 void main() {
-  // var name0 = 'Sarath';
+  // var name0 = 'Haseeb';
   // name0 = 10; // This will throw an error
 
-  dynamic name = 'Sarath';
+  dynamic name = 'Haseeb';
   print(name.runtimeType);
   name = 10; // This will not throw an error
   print(name.runtimeType);

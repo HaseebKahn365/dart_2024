@@ -22,7 +22,7 @@ void main(List<String> args) {
   d = [
     ...d,
     if (should) ...[1, 2, 3, 4, 5],
-    for (var item in d) item * 10,
+    // for (var item in d) item * 10,
   ];
   print(d);
 }
