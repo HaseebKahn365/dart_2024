@@ -21,6 +21,6 @@ class Tesla extends Car {
 
   @override
   String toString() {
-    return super.toString();
+    return super.toString() + " from sub class";
   }
 }
