@@ -8,11 +8,11 @@ void main() {
 
   //an iterator can be used to genenrate a sequence of values, one at a time synchronously.
 
-  var list = genrateAndReturn(); //constructed without being used
+  // var list = genrateAndReturn(); //constructed without being used
 
-  var iterableList = genrateAndReturnIterable(); //not constructed until used
+  // var iterableList = genrateAndReturnIterable(); //not constructed until used
 
-  print("List is $iterableList");
+  // print("List is $iterableList");
 }
 
 List<int> genrateAndReturn() {
